@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Project 1: Static Webpage Design - A pixel-perfect frontend showcase built on clean semantic markup and responsive CSS architectures.">
+    <title>Project 1 - Static Webpage Design</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <h2 class="logo">DECODELABS</h2>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sitemap" class="nav-link">Sitemap</a></li>
+                    <li class="nav-item"><a href="#architecture" class="nav-link">Architecture</a></li>
+                    <li class="nav-item"><a href="#memory" class="nav-link">Objective</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-image-wrapper">
+                    <img src="assets/hero_design.webp" alt="Web Design and Frontend Architecture illustration" width="600" height="600" class="hero-img">
+                </div>
+                <div class="hero-text-wrapper">
+                    <h1>Project 1: Static Webpage Design</h1>
+                    <p class="hero-subtitle">Foundations of Visual Architecture &amp; Technical Integrity</p>
+
+                    <div class="info-card">
+                        <h3 class="info-card-title">Goal</h3>
+                        <p class="info-card-text">Create a static webpage using HTML and CSS.</p>
+
+                        <h3 class="info-card-title">Key Requirements</h3>
+                        <ul class="requirements-list">
+                            <li class="requirement-item">Proper HTML Structure</li>
+                            <li class="requirement-item">Use of Headings, Sections &amp; Images</li>
+                            <li class="requirement-item">Clean and Readable Layout</li>
+                        </ul>
+
+                        <h3 class="info-card-title">Key Skills</h3>
+                        <p class="info-card-text">HTML Fundamentals, CSS Styling</p>
+                    </div>
+
+                    <button type="button" class="cta-button" id="start-project-btn">Start Project</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Information Architecture & Sitemap Section -->
+        <section id="sitemap" class="sitemap-section">
+            <div class="container">
+                <h2 class="section-heading">Information Architecture (Sitemap)</h2>
+                <p class="section-description">A logical overview of the page hierarchy and content flow.</p>
+                <div class="sitemap-grid">
+                    <div class="sitemap-node root-node">
+                        <span class="node-badge badge-primary">Sitemap Root</span>
+                        <h3 class="node-heading">Static Webpage Design</h3>
+                    </div>
+                    <div class="sitemap-children-grid">
+                        <div class="sitemap-node child-node">
+                            <span class="node-badge badge-secondary">Navigation</span>
+                            <h4 class="node-subheading">Header</h4>
+                            <p class="node-desc">Logo, Nav Links (Anchor jump points)</p>
+                        </div>
+                        <div class="sitemap-node child-node">
+                            <span class="node-badge badge-secondary">Core Section</span>
+                            <h4 class="node-subheading">Hero Banner</h4>
+                            <p class="node-desc">Title, Subtitle, Goals, Action CTA</p>
+                        </div>
+                        <div class="sitemap-node child-node">
+                            <span class="node-badge badge-secondary">Technical Visual</span>
+                            <h4 class="node-subheading">Layout Blueprint</h4>
+                            <p class="node-desc">Wireframe visualization, grid patterns</p>
+                        </div>
+                        <div class="sitemap-node child-node">
+                            <span class="node-badge badge-secondary">Concept Breakdown</span>
+                            <h4 class="node-subheading">The Objective</h4>
+                            <p class="node-desc">Dual card layout contrasting Backend vs Frontend</p>
+                        </div>
+                        <div class="sitemap-node child-node">
+                            <span class="node-badge badge-secondary">Feature Deck</span>
+                            <h4 class="node-subheading">Core Features</h4>
+                            <p class="node-desc">Grid items highlighting responsive, semantic designs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture Section -->
+        <section id="architecture" class="architecture-section">
+            <div class="container">
+                <h2 class="section-heading">Frontend Layout Blueprint</h2>
+                <p class="section-description">Visualizing the structural blocks of our page components.</p>
+
+                <div class="blueprint-container">
+                    <div class="blueprint-block header-wireframe">
+                        Header Component
+                    </div>
+
+                    <div class="blueprint-block hero-wireframe">
+                        Hero Component (Two-Column Layout)
+                    </div>
+
+                    <div class="blueprint-layout-grid">
+                        <div class="blueprint-card">Feature 1 Image</div>
+                        <div class="blueprint-card">Feature 1 Text</div>
+                        <div class="blueprint-card">Feature 2 Image</div>
+                        <div class="blueprint-card">Feature 2 Text</div>
+                        <div class="blueprint-card">Content Deck A</div>
+                        <div class="blueprint-card">Content Deck B</div>
+                    </div>
+
+                    <div class="blueprint-block footer-wireframe">
+                        Footer Component
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visual Memory Section -->
+        <section id="memory" class="memory-section">
+            <div class="container">
+                <h2 class="section-heading">The Objective: Building Visual Memory</h2>
+                <p class="section-description">Understanding why frontend presentation holds premium importance.</p>
+
+                <div class="memory-cards-grid">
+                    <div class="memory-card">
+                        <div class="card-image-container">
+                            <img src="assets/backend_logic.webp" alt="Illustration representing backend data and server logic" width="400" height="400" class="card-img">
+                        </div>
+                        <div class="card-text-container">
+                            <h3 class="card-title">Backend / Logic</h3>
+                            <p class="card-desc">
+                                Databases, APIs, and server-side computations operating behind the scenes to power applications.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="memory-card">
+                        <div class="card-image-container">
+                            <img src="assets/frontend_visual.webp" alt="Illustration representing frontend visual layouts and components" width="400" height="400" class="card-img">
+                        </div>
+                        <div class="card-text-container">
+                            <h3 class="card-title">Frontend / Visual Memory</h3>
+                            <p class="card-desc">
+                                Interactive interface that users engage with directly, which makes user experience and visual architecture critical.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accent-box">
+                    <h3 class="accent-box-title">The Frontend is the Only Part Users See</h3>
+                    <ul class="accent-list">
+                        <li class="accent-item"><strong>Mission:</strong> Build a pixel-perfect static webpage.</li>
+                        <li class="accent-item"><strong>Mastery:</strong> Command HTML and CSS layouts to exact specifications.</li>
+                        <li class="accent-item"><strong>Memory:</strong> Create lasting visual impact through layout structure.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-heading">Core Features</h2>
+                <p class="section-description">Technical details that drive visual performance and structure.</p>
+
+                <div class="features-cards-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📁</div>
+                        <h3 class="feature-title">HTML Structure</h3>
+                        <p class="feature-desc">Semantic and accessible markup for all screens.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">🎨</div>
+                        <h3 class="feature-title">CSS Styling</h3>
+                        <p class="feature-desc">Modern styling using variables and subtle transitions.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3 class="feature-title">Responsive Design</h3>
+                        <p class="feature-desc">Works flawlessly across mobile, tablet, and desktop viewports.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">✨</div>
+                        <h3 class="feature-title">Visual Consistency</h3>
+                        <p class="feature-desc">Carefully calibrated typography systems and balanced layouts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-container">
+            <p class="footer-copy">&copy; 2026 DecodeLabs Frontend Development. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
